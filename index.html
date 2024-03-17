@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="logo-section nav-section">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="link-section nav-section">
+            <a href="#">About</a>
+            <a href="#">Work</a>
+        </div>
+        <div class="social-section nav-section hide">
+            <img src="images/twitter-icon.png" alt="twitter-icon">
+            <img src="images/facebook-icon.png" alt="facebook-icon">
+            <img src="images/youtube-icon.png" alt="youtube-icon">
+        </div>
+        <div class="contact-section nav-section hide">
+            <a href="#">Get in touch</a>
+        </div>
+        <div class="mobile-menu-icon">
+            <img onclick="handleOpenClick()" src="images/menu-icon.png" alt="menu-acon">
+            <img onclick="handleCloseClick()" class="cross hide" src="images/plus icon.png" alt="cross-image">
+        </div>
+    </nav>
+    <main>
+        <article class="container" data-index="0" data-status="active">
+            <div class="article-image-section article-section">
+                <img class="image" src="images/image (1).jpg" alt="image">
+            </div>
+            <div class="article-desc-section article-section">
+                <div class="str"></div>
+                <p>
+                    In this article, you'll see some coolest placest to enjoy your holidays or to live.<img src="images/heart-icon.png" alt="image">
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h3 class="article-title-heading">The best natural places to visit now!</h3>
+                <img src="images/plus icon.png" alt="icon" class="image article-title-image">
+            </div>
+            <div class="article-nav-section article-section">
+                <div class="left-nav-arrow" onclick="handleLeftClick()">
+                    <img class="left-nav-arrow-image image" src="images/left-arrow.png" alt="icon">
+                </div>
+                <div class="right-nav-arrow" onclick="handleRightClick()">
+                    <img class="right-nav-arrow-image image" src="images/right-arrow.png" alt="icon">
+                </div>
+            </div>
+        </article>
+        <article class="container" data-index="1" data-status="unknown">
+            <div class="article-image-section article-section">
+                <img class="image" src="images/image (2).jpg" alt="image">
+            </div>
+            <div class="article-desc-section article-section">
+                <div class="str"></div>
+                <p>
+                    Dianosaurs are a diverse group of reptiles of the clade Dinosauria. They first appeared during Triassic period. Million of years ago. Although the exact origin and timming of the evolution of active research. <a href="www.wikipedia.com">Wikipedia</a>
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h3 class="article-title-heading">The dinosauric century</h3>
+                <img src="images/plus icon.png" alt="icon" class="image article-title-image">
+            </div>
+            <div class="article-nav-section article-section">
+                <div class="left-nav-arrow" onclick="handleLeftClick()">
+                    <img class="left-nav-arrow-image image" src="images/left-arrow.png" alt="icon">
+                </div>
+                <div class="right-nav-arrow" onclick="handleRightClick()">
+                    <img class="right-nav-arrow-image image" src="images/right-arrow.png" alt="icon">
+                </div>
+            </div>
+        </article>
+        <article class="container" data-index="2" data-status="unknown">
+            <div class="article-image-section article-section">
+                <img class="image" src="images/image (3).jpg" alt="image">
+            </div>
+            <div class="article-desc-section article-section">
+                <div class="str"></div>
+                <p>
+                    <img src="images/left-arrow.png" alt="image"> The ocean is home to vast mysteries, from the largest animal on the planet to microscopic organisms, which make up 98 percent of the ocean biomass. These microbes are essential to food chain, the production of nutrients for land and sea, and the health of all animals and humans.
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h3 class="article-title-heading">A beautiful life  underwater</h3>
+                <img src="images/plus icon.png" alt="icon" class="image article-title-image">
+            </div>
+            <div class="article-nav-section article-section">
+                <div class="left-nav-arrow" onclick="handleLeftClick()">
+                    <img class="left-nav-arrow-image image" src="images/left-arrow.png" alt="icon">
+                </div>
+                <div class="right-nav-arrow" onclick="handleRightClick()">
+                    <img class="right-nav-arrow-image image" src="images/right-arrow.png" alt="icon">
+                </div>
+            </div>
+        </article>
+        <article class="container" data-index="3" data-status="unknown">
+            <div class="article-image-section article-section">
+                <img class="image" src="images/image (4).jpg" alt="image">
+            </div>
+            <div class="article-desc-section article-section">
+                <div class="str"></div>
+                <p>
+                    Outer Space! Commonly shortend to space. It is the expanse that exist beyond earth. It is the atmosphere where stars and planets exist. Well, if we talk about temperature, Believe it or not, astronomers actually know this value quite well. An extreme <b>-270.42 degrees</b>
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h3 class="article-title-heading">The space is beautiful</h3>
+                <img src="images/plus icon.png" alt="icon" class="image article-title-image">
+            </div>
+            <div class="article-nav-section article-section">
+                <div class="left-nav-arrow" onclick="handleLeftClick()">
+                    <img class="left-nav-arrow-image image" src="images/left-arrow.png" alt="icon">
+                </div>
+                <div class="right-nav-arrow" onclick="handleRightClick()">
+                    <img class="right-nav-arrow-image image" src="images/right-arrow.png" alt="icon">
+                </div>
+            </div>
+        </article>
+        <article class="container" data-index="4" data-status="unknown">
+            <div class="article-image-section article-section">
+                <img class="image" src="images/image (5).jpg" alt="image">
+            </div>
+            <div class="article-desc-section article-section">
+                <div class="str"></div>
+                <p>
+                    Roads play an very important role in making travel easier and more expedient. <a href="#">Read more here.</a>
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h3 class="article-title-heading">An article on roads</h3>
+                <img src="images/plus icon.png" alt="icon" class="image article-title-image">
+            </div>
+            <div class="article-nav-section article-section">
+                <div class="left-nav-arrow" onclick="handleLeftClick()">
+                    <img class="left-nav-arrow-image image" src="images/left-arrow.png" alt="icon">
+                </div>
+                <div class="right-nav-arrow" onclick="handleRightClick()">
+                    <img class="right-nav-arrow-image image" src="images/right-arrow.png" alt="icon">
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
